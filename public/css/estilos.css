@@ -1,0 +1,28 @@
+BODY {
+    background-image: url(../img/epm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family : arial;
+    }
+
+IFRAME {
+
+    background-color: rgb(121, 197, 154);
+    height: 80%;
+    width: 20%;
+    right: 30px;
+    bottom: 10px;
+    position: absolute;
+    border-bottom-style: solid;
+    border-radius: 10px;
+}
+
+BUTTON {
+    right: 30px;
+    bottom: 12px;
+    position: absolute;
+    border-bottom-style: solid;
+    background-color: #79d401;
+    border-radius: 10px;
+    width: 3.6%;
+}

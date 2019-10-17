@@ -19,7 +19,7 @@ div {
   font-size: 0.75rem;
   padding: 0.5rem;
 }
-
+/* 
 #view-change-button {
   display: inline-block;
   position: absolute;
@@ -31,22 +31,22 @@ div {
   right: 0.3125rem;
   line-height: 3.125rem;
   vertical-align: middle;
-}
-
-#view-change-button img {
+}#323232;
+#323232;
+#view-change-button img {#323232;
   display: none;
   width: 100%;
   height: 100%;
   vertical-align: middle;
-}
+} */
 
-#view-change-button:not(.full) .not-full {
+/* #view-change-button:not(.full) .not-full {
   display: inline-block;
 }
 
 #view-change-button.full .full {
   display: inline-block;
-}
+} */
 
 #contentParent {
   height: 100%;
@@ -75,7 +75,7 @@ div {
 .chat-column {
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 80%;
   padding: 0.9375rem 0 0.625rem 0;
   margin: auto;
   text-align: left;
@@ -134,7 +134,7 @@ div {
   color: #fff;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
-  background: #00B4A0;
+  background: #017835;
   border-radius: 1.25rem;
   border-bottom-right-radius: 0;
   text-align: left;
@@ -178,31 +178,31 @@ div {
   position: relative;
   border-radius: 1.5625rem;
   font-size: 1rem;
-  color: #B5B5B5;
+  color: #323232;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
 }
 
 .from-watson.latest .message-inner {
-  color: #323232;
+  color: rgb(255, 255, 255);
 }
 
 .from-watson p {
-  margin: 0.3125rem;
-  padding: 0 1.25rem;
+  margin: 2rem;
+  padding: 0 1.20rem;
 }
 
 .from-watson.latest.top p:before {
   content: ".";
-  color: #9855D4;
-  background-image: url("../img/marker_image.png");
-  background-size: 0.3125rem 1.3125rem;
+  color: #017835;
+  background-image: url("../img/logo.png");
+  background-size: 2rem 2rem;
   position: absolute;
   z-index: 2;
   left: 0.4375rem;
-  width: 0.3125rem;
-  height: 1.3125rem;
-  line-height: 1.3125rem;
+  width: 2rem;
+  height: 2rem;
+  line-height: 3rem;
 }
 
 #textInput {
@@ -210,7 +210,7 @@ div {
   outline: none;
   background: transparent;
   font-size: 1rem;
-  color: #323232;
+  color: #ffffff;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
   height: 2.5rem;
@@ -226,21 +226,21 @@ div {
 }
 
 ::-webkit-input-placeholder {
-  color: #B5B5B5;
+  color: #ffffff;
 }
 
 ::-moz-placeholder {
-  color: #B5B5B5;
+  color: #ffffff;
   opacity:  1;
 }
 
 input:-moz-placeholder {
-  color: #B5B5B5;
+  color: #ffffff;
   opacity:  1;
 }
 
 :-ms-input-placeholder {
-  color: #B5B5B5;
+  color: #ffffff;
 }
 
 ::-ms-clear {
@@ -463,4 +463,16 @@ html{
   margin: 3px;
   cursor: pointer;
   display: inline-block;
+}
+
+#limpiar {
+  margin: auto;
+  background-image: url(../img/clear.png);
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 10px;
+  bottom: 10px;
 }
